@@ -1,0 +1,69 @@
+{
+  "dramaList": [
+    {
+      "dramaName": "Acient love poetry",
+      "hero": "Xu Kai",
+      "heroin": "Zhou Dong Yu",
+      "director": "Yin Tao, Li Cai",
+      "gener": "Action",
+      "rating": "8",
+      "language": "Chinese",
+      "releaseDate": "2019",
+      "poster": "https://i.mydramalist.com/x1v0X_4f.jpg",
+      "trailer": "https://www.youtube.com/embed/XtJLF9odU6w",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "dramaName": "Love O20",
+      "hero": "Yang Yang",
+      "heroin": "Zheng Shuangv",
+      "director": "Lin Yufen",
+      "gener": "Romance , Comedy",
+      "rating": "7.9",
+      "language": "Chinese",
+      "releaseDate": "2016",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG9bfaKe8sv978kQglvkTZadpKJ8iqkkeoaQ&usqp=CAU",
+      "trailer": "https://youtu.be/Wu6tLLX01Yo"
+    },
+    {
+      "id": 3,
+      "dramaName": "Joy of Life",
+      "hero": "Zhang Ruo Yun",
+      "heroin": "Li Qin",
+      "director": "Sun Hao",
+      "gener": " Romance",
+      "rating": "9",
+      "language": "Chinese",
+      "releaseDate": "1992",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfQ0RRqQBkKz_9mkTHvUP6VN5-W5jKMMvs-g&usqp=CAU",
+      "trailer": "https://youtu.be/8D5AyJAXqiE"
+    },
+    {
+      "id": 4,
+      "dramaName": "Go Ahead",
+      "hero": "Song Wei Long  Zhang Xin Cheng",
+      "heroin": "Tan Song Yun",
+      "director": "Ding Zi Guang",
+      "gener": "Comedy,Youth",
+      "rating": "9.0",
+      "language": "Chinese",
+      "releaseDate": "2020",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ44gzXySDUh-lp6C5TvGIy3-bePGl3KmTDhw&usqp=CAU",
+      "trailer": "https://www.youtube.com/embed/fqCVck2QOXA"
+    },
+    {
+      "id": 5,
+      "dramaName": "You Are My Glory",
+      "hero": "Yang Yang",
+      "heroin": "Dilraba Dilmurat",
+      "director": "Whang Zhi",
+      "gener": "Comedy",
+      "rating": "8.8",
+      "language": "Chinese",
+      "releaseDate": "2021",
+      "poster": "https://i.mydramalist.com/jJVmO_4f.jpg",
+      "trailer": "https://youtu.be/aiF8jDfTKDI"
+    }
+  ]
+}
