@@ -1,17 +1,18 @@
 
 import { useState } from "react";
-import { Link , useHistory, useParams } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
 import useFetch from "./useFetch";
 import Updatedrama from "./Updatedrama";
 
 
 const Dramadetails = () => {
     let{id} = useParams();
-     let history=useHistory();
      let [update , setUpdate]=useState(false);
-let{ data : drama , pending , error}=useFetch(`http://localhost:4000/dramaList/${id}`)
-  let handleDelete = (id)=>{
-fetch(`http://localhost:4000/dramaList/${id}` , {method:"DELETE"})
+     let history=useHistory();
+
+   let{ data : drama , pending , error}=useFetch(`http://localhost:4000/dramaList/${id}`)
+     let handleDelete = (id)=>{
+   fetch(`http://localhost:4000/dramaList/${id}` , {method:"DELETE"})
     .then(
         ()=>{
             history.push("/");

@@ -16,18 +16,18 @@ const Adddrama = () => {
 
      let { data : dramas} = useFetch("http://localhost:4000/dramaList");
     let history = useHistory();
- let handleSubmit =(e)=>{
-    e.preventDefault();
-    let drama = { dramaName , hero , heroin , director , gener , rating , language, releaseDate, poster , trailer};
+      let handleSubmit =(e)=>{
+        e.preventDefault();
+       let drama = { dramaName , hero , heroin , director , gener , rating , language, releaseDate, poster , trailer};
     // check the current drama ids present r not
  
-var duplicate = dramas.some((d) =>{ return d.dramaName === dramaName});
+       var duplicate = dramas.some((d) =>{ return d.dramaName === dramaName});
 
 
     if(duplicate==false)
     {
- fetch("http://localhost:4000/dramaList" , 
-    {
+         fetch("http://localhost:4000/dramaList" , 
+         {
         method:"POST",
         headers: {"Content-Type" : "application/json"},
         body: JSON.stringify(drama)})
@@ -36,10 +36,8 @@ var duplicate = dramas.some((d) =>{ return d.dramaName === dramaName});
     }
     else
     {
-alert("Drama already existing , please try to add new drama");
+      alert("Drama already existing , please try to add new drama");
     }
-
-
 }
 
     return (

@@ -1,8 +1,6 @@
 import { useState } from "react";
-import { useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import { useParams } from "react-router-dom";
-import useFetch from "./useFetch";
 
 
 const Updatedrama = ({previousDrama}) => { 

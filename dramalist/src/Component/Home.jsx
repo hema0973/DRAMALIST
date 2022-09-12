@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import { useState } from "react";
 import DramaList from "./Dramalist";
 import useFetch from "./useFetch";
 

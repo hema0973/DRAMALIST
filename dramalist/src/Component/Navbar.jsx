@@ -8,8 +8,8 @@ const Navbar = () => {
         <nav>
             <h1>DramaList</h1>
             <div>
-            <input type="search" value={searchVal} onChange={ (e)=>setSearchVal(e.target.value)}/>
-         <Link to={`/search${searchVal}`}> <button>search</button>
+            <input type="search" value={searchVal} onChange={ (e)=>{setSearchVal(e.target.value);}}/>
+         <Link to={`/searchpage${searchVal}`}> <button>search</button>
         </Link>
             </div>
             <div>
